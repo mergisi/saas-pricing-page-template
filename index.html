@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS Product - Pricing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="pricing-page">
+        <div class="headline">
+            <h1 class="main-headline">Choose the Perfect Plan for Your Needs</h1>
+            <p class="sub-headline">Unlock powerful features to boost your productivity. Start your free trial today!</p>
+        </div>
+
+        <div class="toggle-container">
+            <span class="toggle-label">Monthly</span>
+            <label class="toggle-switch">
+                <input type="checkbox" id="billing-toggle">
+                <span class="slider"></span>
+            </label>
+            <span class="toggle-label">Yearly</span>
+            <span class="discount-label">Save up to 20%</span>
+        </div>
+
+        <div class="pricing-container">
+            <div class="pricing-card">
+                <div class="card-header">
+                    <span class="plan-name">Basic</span>
+                    <span class="plan-price">$19 /mo</span>
+                </div>
+                <div class="billing-info">
+                    <span>Cancel Anytime</span>
+                    <span>Billed Monthly</span>
+                </div>
+                <ul class="feature-list">
+                    <li class="feature-item"><span class="checkmark">✓</span> Feature 1</li>
+                    <li class="feature-item"><span class="checkmark">✓</span> Feature 2</li>
+                    <li class="feature-item"><span class="checkmark">✓</span> Feature 3</li>
+                    <li class="feature-item"><span class="checkmark">✓</span> Feature 4</li>
+                </ul>
+                <button class="cta-button monthly-button" data-plan="basic-monthly">Start Free Trial</button>
+                <button class="cta-button yearly-button" data-plan="basic-yearly" style="display: none;">Start Free Trial</button>
+            </div>
+
+            <div class="pricing-card popular">
+                <div class="most-popular">Most Popular</div>
+                <div class="card-header">
+                    <span class="plan-name">Pro</span>
+                    <span class="plan-price">$49 /mo</span>
+                </div>
+                <div class="billing-info">
+                    <span>Cancel Anytime</span>
+                    <span>Billed Monthly</span>
+                </div>
+                <ul class="feature-list">
+                    <li class="feature-item"><span class="checkmark">✓</span> All Basic Features</li>
+                    <li class="feature-item"><span class="checkmark">✓</span> Pro Feature 1</li>
+                    <li class="feature-item"><span class="checkmark">✓</span> Pro Feature 2</li>
+                    <li class="feature-item"><span class="checkmark">✓</span> Pro Feature 3</li>
+                    <li class="feature-item"><span class="checkmark">✓</span> Pro Feature 4</li>
+                </ul>
+                <button class="cta-button monthly-button" data-plan="pro-monthly">Start Free Trial</button>
+                <button class="cta-button yearly-button" data-plan="pro-yearly" style="display: none;">Start Free Trial</button>
+            </div>
+
+            <div class="pricing-card">
+                <div class="card-header">
+                    <span class="plan-name">Enterprise</span>
+                    <span class="plan-price">$99 /mo</span>
+                </div>
+                <div class="billing-info">
+                    <span>Cancel Anytime</span>
+                    <span>Billed Monthly</span>
+                </div>
+                <ul class="feature-list">
+                    <li class="feature-item"><span class="checkmark">✓</span> All Pro Features</li>
+                    <li class="feature-item"><span class="checkmark">✓</span> Enterprise Feature 1</li>
+                    <li class="feature-item"><span class="checkmark">✓</span> Enterprise Feature 2</li>
+                    <li class="feature-item"><span class="checkmark">✓</span> Enterprise Feature 3</li>
+                    <li class="feature-item"><span class="checkmark">✓</span> Priority Support</li>
+                </ul>
+                <button class="cta-button monthly-button" data-plan="enterprise-monthly">Start Free Trial</button>
+                <button class="cta-button yearly-button" data-plan="enterprise-yearly" style="display: none;">Start Free Trial</button>
+            </div>
+        </div>
+
+        <div class="faq-section">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <div class="faq-question">What is [SaaS Product]?</div>
+                <div class="faq-answer">[SaaS Product] is a powerful tool designed to help you [main benefit]. It offers [key features] to streamline your workflow and boost productivity.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">How does the free trial work?</div>
+                <div class="faq-answer">You can sign up for any plan and use all its features for [trial period] days without charge. If you're not satisfied, you can cancel anytime within those [trial period] days without being billed.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Can I upgrade or downgrade my plan?</div>
+                <div class="faq-answer">Yes, you can change your plan at any time. The changes will be reflected in your next billing cycle.</div>
+            </div>
+        </div>
+
+        <div class="testimonials-section">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonial">
+                <div class="testimonial-text">"[SaaS Product] has revolutionized our workflow. We've seen a significant increase in productivity since we started using it."</div>
+                <div class="testimonial-author">- John D., Project Manager</div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-text">"The features in [SaaS Product] are exactly what we needed. It's user-friendly and has greatly improved our team's efficiency."</div>
+                <div class="testimonial-author">- Sarah L., Small Business Owner</div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-text">"The customer support team is fantastic. They've been incredibly helpful in optimizing our use of [SaaS Product]."</div>
+                <div class="testimonial-author">- Michael R., IT Director</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
