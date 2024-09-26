@@ -26,7 +26,7 @@ This repository contains a customizable pricing page template for SaaS (Software
 
 1. Clone this repository to your local machine:
    ```
-   git clone https://github.com/yourusername/saas-pricing-page-template.git
+   git clone https://github.com/mergisi/saas-pricing-page-template.git
    ```
 2. Navigate to the project directory:
    ```
